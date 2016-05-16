@@ -129,6 +129,12 @@
     <Compile Include="Startup.cs" />
     <Compile Include="WebApiConfig.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiProductionPack\WebApiProductionPack.csproj">
+      <Project>{78fccb16-6a73-4aab-9ff7-e30e02d39eac}</Project>
+      <Name>WebApiProductionPack</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
