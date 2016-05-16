@@ -1,6 +1,6 @@
 using System.Web.Http;
 
-namespace Api
+namespace WebApiProductionPack.Examples
 {
     public class WebApiConfig
     {

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
+﻿using System.Web.Http;
 using Owin;
 using Swashbuckle.Application;
 
-namespace Api
+namespace WebApiProductionPack.Examples
 {
     public class Startup
     {
